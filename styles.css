@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #text {
+    width: 300px;
+    background-color: yellow;
+    height: 200px;
+    overflow: auto;
+}
+
+.important {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.picture {
+    width: 300px;
+    height: 100px;
+    border: 6px solid;
+    border-color: brown orange orange brown;
+}
+
+#text {
+    border: 4px dashed orange;
+}
+
+.all-of-page {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 40px 40px 10px 10px;
+    border: 2px solid red; 
+    background-color: lightyellow;
+}
